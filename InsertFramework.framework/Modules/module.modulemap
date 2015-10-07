@@ -1,0 +1,10 @@
+framework module InsertFramework {
+  umbrella header "InsertFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module InsertFramework.Swift {
+    header "InsertFramework-Swift.h"
+}
